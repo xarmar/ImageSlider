@@ -1,0 +1,29 @@
+{
+  "name": "imageslider",
+  "version": "1.0.0",
+  "description": "Just making a simple slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xarmar/ImageSlider.git"
+  },
+  "keywords": [
+    "image-slider"
+  ],
+  "author": "Xavier Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xarmar/ImageSlider/issues"
+  },
+  "homepage": "https://github.com/xarmar/ImageSlider#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.44.0"
+  }
+}
