@@ -12,3 +12,4 @@
 - How to use async functions to set Timeouts.
 - How to create a image slider without Bootstrap.
 - How to use CSS 'transition' property to easily create an image carousel.
+- How to use ESlint to reduce errors during development and Prettier to make code more readable.
