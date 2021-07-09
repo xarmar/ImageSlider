@@ -1,19 +1,26 @@
+body {
+  background-color: lightslategrey;
+}
+
 #containerDiv {
-    display: flex;
-    height: 100vh;
-    width: auto;
-    background-color: darkblue;
-    #imageContainer {
-        margin: auto;
-        background-color: gold;
-        width: 95%;
-        height: 100%;
-        #image {
-            margin: auto;
-            background-color: green;
-            height: 100%;
-            width: 100%;
-            display: block;
-        }
+  display: flex;
+  height: 98vh;
+  width: auto;
+  #pictureFrame {
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    #image {
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      transition: opacity 2000ms ease-out;
     }
+    .easeIn {
+      opacity: 100%;
+    }
+    .easeOut {
+      opacity: 0%;
+    }
+  }
 }
