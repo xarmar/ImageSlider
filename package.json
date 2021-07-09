@@ -21,9 +21,14 @@
   },
   "homepage": "https://github.com/xarmar/ImageSlider#readme",
   "devDependencies": {
+    "css-loader": "^5.2.6",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
     "html-webpack-plugin": "^5.3.2",
+    "prettier": "2.3.2",
     "sass": "^1.35.2",
     "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
     "webpack": "^5.44.0"
   }
 }

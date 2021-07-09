@@ -3,6 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
+  mode: 'development',
+  watch: 'true',
+  watchOptions: {
+    ignored: /node_modules/,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Custom Template',
